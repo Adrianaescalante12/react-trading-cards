@@ -2,9 +2,12 @@
 
 function Homepage() {
   return (
-    <div>
-      This component needs to be implemented.
-    </div>
+    <React.Fragment>
+      <h2>Welcome to whatever this is.</h2>
+      <a href="/cards">Play Cards</a>
+      <br />
+      <img src="/static/img/balloonicorn.jpg" />
+    </React.Fragment>
   );
 }
 
